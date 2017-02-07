@@ -1,0 +1,3 @@
+Download angular2-meteor-base project
+Renamed name in package.json
+Shared on Github
