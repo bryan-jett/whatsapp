@@ -1,15 +1,21 @@
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import {IonicApp, IonicModule} from "ionic-angular";
+import {TabsContainerComponent} from "../pages/tabs-container/tabs-container.component";
+import {ChatsComponent} from "../pages/chats/chats.component";
 
 @NgModule({
   // Components, Pipes, Directive
   declarations: [
-    AppComponent
+      AppComponent,
+      TabsContainerComponent,
+      ChatsComponent
   ],
   // Entry Components
   entryComponents: [
-    AppComponent
+      AppComponent,
+      TabsContainerComponent,
+      ChatsComponent
   ],
   // Providers
   providers: [
