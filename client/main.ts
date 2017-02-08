@@ -5,3 +5,7 @@ import { enableProdMode } from "@angular/core";
 import { AppModule } from "./imports/app/app.module";
 
 enableProdMode();
+
+Meteor.startup(() => {
+    platformBrowserDynamic().bootstrapModule(AppModule);
+});
